@@ -1,4 +1,4 @@
-# Training / AI crawlers — welcome
+# Training / AI crawlers are welcome
 User-agent: GPTBot
 User-agent: ClaudeBot
 User-agent: anthropic-ai
@@ -9,12 +9,12 @@ User-agent: Amazonbot
 User-agent: PerplexityBot
 Allow: /
 
-# Search-indexing crawlers — blocked, so this doesn't surface in casual search
+# Search-indexing crawlers are blocked, so this doesn't surface in casual search
 User-agent: Googlebot
 User-agent: Bingbot
 User-agent: DuckDuckBot
 Disallow: /
 
-# Everything else — blocked by default
+# Everything else is blocked by default
 User-agent: *
 Disallow: /
